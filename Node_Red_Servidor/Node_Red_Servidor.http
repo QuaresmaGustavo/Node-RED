@@ -1,0 +1,6 @@
+@Node_Red_Servidor_HostAddress = http://localhost:5231
+
+GET {{Node_Red_Servidor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
