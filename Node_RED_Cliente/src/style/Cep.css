@@ -1,0 +1,23 @@
+#cep_container{
+    grid-column: 2 / -1;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 2rem 0;
+}
+
+.titulo{
+    margin-bottom: 1.2rem;
+}
+
+#barra_de_pesquisa{
+    height: 2rem;
+    border-radius: 0.6rem;
+    padding-left: 0.4rem;
+}
+
+.mensagem_aviso{
+    font-size: 1.2em;
+    line-height: 1.1;
+    margin-top: 2rem;
+}
