@@ -25,23 +25,25 @@ export default function BarraDePesquisa() {
 
     return (
         <div id="cep_container">
-            <h2 className="titulo">Pesquisar um CEP</h2>
-            <input 
-                type="text" 
-                id="barra_de_pesquisa" 
-                onChange={(e) => setCEP(e.target.value)} 
-                maxLength={8}
-                placeholder="Digite um CEP"
-            />
-            <div className="cep">
-                {informacao ? (
-                    <div>
-                        <h1 className="cabecalho">{informacao.city} - {informacao.state}</h1>
-                        <p>{informacao.street}, {informacao.neighborhood}</p>
-                    </div>
-                ) : (
-                    <p className="mensagem_aviso">Informe um CEP válido para visualizar os dados.</p>
-                )}
+            <div id="cep_box">
+                <h2 className="titulo">Pesquisar um CEP</h2>
+                <input
+                    type="text"
+                    id="barra_de_pesquisa"
+                    onChange={(e) => setCEP(e.target.value)}
+                    maxLength={8}
+                    placeholder="Digite um CEP"
+                />
+                <div className="cep">
+                    {informacao ? (
+                        <div>
+                            <h1 className="cabecalho">{informacao.city} - {informacao.state}</h1>
+                            <p>{informacao.street}, {informacao.neighborhood}</p>
+                        </div>
+                    ) : (
+                        <p className="mensagem_aviso">Informe um CEP válido para visualizar os dados.</p>
+                    )}
+                </div>
             </div>
         </div>
     );

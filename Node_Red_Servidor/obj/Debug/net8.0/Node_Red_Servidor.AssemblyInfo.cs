@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Node_Red_Servidor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+956eedfe27a7cae35e9dcf7b3e725ed522ac9b52")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94ab22ef7f71bd4392d3b44d5285bbdff45105b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Node_Red_Servidor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Node_Red_Servidor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

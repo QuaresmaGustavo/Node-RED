@@ -5,12 +5,14 @@ import './index.css'
 
 import CEP from './Components/CEP.jsx'
 import Corretoras from './Components/Corretoras.jsx'
+import Salvos from './Components/Salvos.jsx'
 import Home from './Home.jsx'
 
 const router = createBrowserRouter([
   {path: "", element: <Home/>, children: [
     {path: "", element: <Corretoras/>},
     {path: "cep", element: <CEP/>},
+    {path: "salvos", element: <Salvos/>}
   ]},
 ])
 

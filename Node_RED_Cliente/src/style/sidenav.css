@@ -38,6 +38,8 @@ h1 {
     font-weight: 700;
     text-decoration:none;
     color: rgba(255, 255, 255, 0.87);
+
+    transition: ease-out 100ms;
 }
 
 .paginas:hover {
@@ -47,6 +49,4 @@ h1 {
 
     transform: translateX(2px);
     transform: translateY(-4px);
-
-    transition:ease-out 100ms;
   }

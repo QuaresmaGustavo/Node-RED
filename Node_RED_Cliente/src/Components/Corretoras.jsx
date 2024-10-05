@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import '../style/Corretoras.css'
 
-function App() {
+export default function Corretoras() {
 
   const [corretora, setCorretora] = useState([])
 
@@ -25,7 +25,7 @@ function App() {
       <div className='cabecalho'>
         <h1>CORRETORAS</h1>
         <span>
-        Abaixo, você encontrará um campo contendo informações sobre o nome social, cidade e CNPJ de todas as corretoras do Brasil.
+          Abaixo, você encontrará um campo contendo informações sobre o nome social, cidade e CNPJ de todas as corretoras do Brasil.
         </span>
       </div>
       <div className='corretoras_container'>
@@ -42,5 +42,3 @@ function App() {
     </div>
   )
 }
-
-export default App

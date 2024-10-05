@@ -38,7 +38,8 @@
   border: 1px solid rgba(128, 128, 128, 0.178);
   border-radius: 1rem;
   word-break: break-all;
-  list-style-type: none
+  list-style-type: none;
+  transition: ease-in-out 100ms;
 }
 
 .info_corretora:hover {
@@ -46,5 +47,4 @@
   border-color: #646cff;
   border-left-width: 0.2rem;
   border-bottom-width: 0.2rem;
-  transition: ease-in-out 100ms;
 }

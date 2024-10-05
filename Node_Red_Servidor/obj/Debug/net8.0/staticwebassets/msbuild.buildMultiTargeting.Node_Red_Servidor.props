@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Node_Red_Servidor.props" />
+</Project>

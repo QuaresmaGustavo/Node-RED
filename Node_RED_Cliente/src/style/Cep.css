@@ -1,9 +1,12 @@
 #cep_container{
     grid-column: 2 / -1;
+    width: 60%;
+    margin: 4rem 0 0 2rem;
+}
+
+#cep_box{
     display: flex;
     flex-direction: column;
-    width: 60%;
-    margin: 2rem 0;
 }
 
 .titulo{

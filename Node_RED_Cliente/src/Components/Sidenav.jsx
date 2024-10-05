@@ -7,6 +7,7 @@ export default function Home() {
             <nav className='navegacao'>
                 <a href="/" className='paginas'>CORRETORAS</a>
                 <a href="cep" className='paginas'>CEP</a>
+                <a href="salvos" className='paginas'>SALVOS</a>
             </nav>
         </div>
     )
