@@ -22,11 +22,12 @@ namespace Node_Red_Servidor.Service
             return resposta;
         }
 
-        public async Task<ResponseModel<Corretora>> SalvarCorretoras(string cnpj){
+        public async Task<ResponseModel<Corretora>> SalvarCorretoras(Corretora cnpj){
             ResponseModel<Corretora> resposta = new ResponseModel<Corretora>();
 
-            Corretora novaCorretora = new Corretora() {
-                CNPJ = cnpj 
+            Corretora novaCorretora = new Corretora()
+            {
+                CNPJ = cnpj.CNPJ
             };
 
             serverDbContext.Add(novaCorretora);
@@ -36,10 +37,11 @@ namespace Node_Red_Servidor.Service
             return resposta;
         }
 
-        public async Task<ResponseModel<Corretora>> RemoverCorretoras(int id){
+        public async Task<ResponseModel<Corretora>> RemoverCorretoras(string cnpj)
+        {
             ResponseModel<Corretora> resposta = new ResponseModel<Corretora>();
 
-            var corretora = await serverDbContext.corretoras.FindAsync(id);
+            var corretora = await serverDbContext.corretoras.FirstOrDefaultAsync(c => c.CNPJ == cnpj);
 
             serverDbContext.Remove(corretora);
             await serverDbContext.SaveChangesAsync();

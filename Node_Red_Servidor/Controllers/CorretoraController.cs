@@ -19,13 +19,13 @@ namespace Node_Red_Servidor.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ResponseModel<Corretora>>> SalvarCorretoras([FromBody] string cnpj){
+        public async Task<ActionResult<ResponseModel<Corretora>>> SalvarCorretoras([FromBody] Corretora cnpj){
             return await _service.SalvarCorretoras(cnpj);
         }
 
         [HttpDelete]
-        public async Task<ActionResult<ResponseModel<Corretora>>> RemoverCorretoras([FromQuery] int id){
-            return await _service.RemoverCorretoras(id);
+        public async Task<ActionResult<ResponseModel<Corretora>>> RemoverCorretoras([FromQuery] string cnpj){
+            return await _service.RemoverCorretoras(cnpj);
         }
     }
 }

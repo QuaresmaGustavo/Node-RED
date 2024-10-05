@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import Btn_Salvar from './Btn_Salvar'
 import '../style/Corretoras.css'
 
 export default function Corretoras() {
@@ -32,8 +33,11 @@ export default function Corretoras() {
         {corretora ? (
           <ul className='lista_de_corretoras'>
             {corretora.map((c) => (
-              <li className='info_corretora'>
-                {c.nome_social} - {c.municipio} / {c.cnpj}
+              <li key={c.cnpj} className='info_corretora'>
+                <span className='informacao'>{c.nome_social} - {c.municipio} / {c.cnpj}</span>
+                <div className='box_btn_salvar'>
+                  <Btn_Salvar Cnpj={c.cnpj}/>
+                </div>
               </li>
             ))}
           </ul>
