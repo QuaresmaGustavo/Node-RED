@@ -74,3 +74,13 @@
   width: 2rem;
   background-color: transparent;
 }
+
+@media screen and (max-width: 1023px) {
+  .lista_de_corretoras_Salvas{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .info_corretoras_Salvas{
+    height: 100%;
+  }
+}

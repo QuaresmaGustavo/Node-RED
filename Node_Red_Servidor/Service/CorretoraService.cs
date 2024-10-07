@@ -25,7 +25,15 @@ namespace Node_Red_Servidor.Service
         public async Task<ResponseModel<Corretora>> SalvarCorretoras(Corretora cnpj){
             ResponseModel<Corretora> resposta = new ResponseModel<Corretora>();
 
-            Corretora novaCorretora = new Corretora()
+            var corretora = await serverDbContext.corretoras.FirstOrDefaultAsync(c => c.CNPJ == cnpj.CNPJ);
+
+            if (corretora != null)
+            {
+                resposta.Mensagem = "Esta corretora ja esta salva";
+                return resposta;
+            }
+
+                Corretora novaCorretora = new Corretora()
             {
                 CNPJ = cnpj.CNPJ
             };

@@ -55,7 +55,7 @@ export default function Salvos() {
         <h1>CORRETORAS SALVAS</h1>
       </div>
       <div className='corretoras_Salvas_container'>
-        {corretora ? (
+        {corretora.length > 0 ? (
           <div className='lista_de_corretoras_Salvas'>
             {corretora.map((c) => (
               <div className='info_corretoras_Salvas'>

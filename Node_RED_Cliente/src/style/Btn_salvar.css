@@ -1,0 +1,18 @@
+.btn_salvar{
+    padding: 0;
+    background-color: transparent;
+}
+
+.btn_salvar:hover {
+    border-color: transparent;
+    border-left-width: 0;
+    border-bottom-width: 0;
+
+    transform: translateY(0);
+
+    transition:ease-out 100ms;
+  }
+
+  .btn_salvar:focus{
+    outline: none;
+  }

@@ -1,0 +1,10 @@
+.notificacao{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    padding: 1.2rem;
+    background-color: #323232;
+
+    transition:ease-out 500ms;
+}

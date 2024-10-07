@@ -1,4 +1,10 @@
+import { useState } from 'react';
+import '../style/Btn_Excluir.css'
+import Notificacao from './Notificacao';
+
 export default function Btn_Excluir({cnpj, remover}) {
+
+    const [mensagem, setMensagem] = useState('');
 
     const RemoverCorretora = async () => {
         const fetchData = async () => {
@@ -7,7 +13,12 @@ export default function Btn_Excluir({cnpj, remover}) {
                     method: 'DELETE',
                 })
                 if (response.ok) {
-                    remover(cnpj)
+                    const data = await response.json();
+                    remover(cnpj);
+                    setMensagem(data.mensagem)
+                }
+                else {
+                    setMensagem('Falha ao excluir corretora.');
                 }
             } catch (error) {
                 console.error("Erro na API", error)
@@ -23,7 +34,7 @@ export default function Btn_Excluir({cnpj, remover}) {
                     delete
                 </span>
             </button>
-
+            {mensagem ? (<Notificacao mensagem={mensagem}/>) : ('') }
         </>
     )
 }

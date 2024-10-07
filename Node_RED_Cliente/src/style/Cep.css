@@ -1,12 +1,17 @@
 #cep_container{
     grid-column: 2 / -1;
     width: 60%;
-    margin: 4rem 0 0 2rem;
+    margin: 4rem 2rem;
 }
 
 #cep_box{
     display: flex;
     flex-direction: column;
+    height: 100%;
+}
+
+.cabecalho{
+    width: 100%;
 }
 
 .titulo{
@@ -14,9 +19,17 @@
 }
 
 #barra_de_pesquisa{
+    width: 100%;
     height: 2rem;
     border-radius: 0.6rem;
     padding-left: 0.4rem;
+}
+
+.cep{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
 }
 
 .mensagem_aviso{

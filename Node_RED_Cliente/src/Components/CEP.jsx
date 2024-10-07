@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import '../style/Cep.css';
+import '../style/Cep.css'
 
 export default function BarraDePesquisa() {
 
@@ -26,18 +26,20 @@ export default function BarraDePesquisa() {
     return (
         <div id="cep_container">
             <div id="cep_box">
-                <h2 className="titulo">Pesquisar um CEP</h2>
-                <input
-                    type="text"
-                    id="barra_de_pesquisa"
-                    onChange={(e) => setCEP(e.target.value)}
-                    maxLength={8}
-                    placeholder="Digite um CEP"
-                />
+                <div className="cabecalho">
+                    <h2 className="titulo">Pesquisar um CEP</h2>
+                    <input
+                        type="text"
+                        id="barra_de_pesquisa"
+                        onChange={(e) => setCEP(e.target.value)}
+                        maxLength={8}
+                        placeholder="Digite um CEP"
+                    />
+                </div>
                 <div className="cep">
                     {informacao ? (
                         <div>
-                            <h1 className="cabecalho">{informacao.city} - {informacao.state}</h1>
+                            <h1 className="cabecalho_cep"> {informacao.city} - {informacao.state} </h1>
                             <p>{informacao.street}, {informacao.neighborhood}</p>
                         </div>
                     ) : (
