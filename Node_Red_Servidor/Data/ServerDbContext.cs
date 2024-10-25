@@ -7,6 +7,6 @@ namespace Node_Red_Servidor.Data
     public class ServerDbContext : DbContext {
         public ServerDbContext(DbContextOptions<ServerDbContext> options) : base(options) { }
 
-        public DbSet<Corretora> corretoras { get; set; }
+        public DbSet<Salvos> Salvos { get; set; }
     }
 }

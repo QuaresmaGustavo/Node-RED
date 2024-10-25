@@ -11,20 +11,31 @@ namespace Node_Red_Servidor.Controllers
 
         private readonly CorretoraService _service;
 
-        public CorretoraController(CorretoraService service) { _service = service;} 
+        public CorretoraController(CorretoraService service) { _service = service;}
 
-        [HttpGet]
-        public async Task<ActionResult<ResponseModel<List<Corretora>>>> BuscarTodasAsCorretoras(){
+        [HttpGet("/cep")]
+        public async Task<ResponseModel<CEP>> BuscarPorCEP(string cep)
+        {
+            return await _service.BuscarPorCEP(cep);
+        }
+
+        [HttpGet("/corretoras")]
+        public async Task<ResponseModel<List<Corretora>>> BuscarTodasAsCorretoras(){
             return await _service.BuscarTodasAsCorretoras();
         }
 
+        [HttpGet("/salvos")]
+        public async Task<ActionResult<ResponseModel<List<Salvos>>>> BuscarTodasAsCorretorasSalvas(){
+            return await _service.BuscarTodasAsCorretorasSalvas();
+        }
+
         [HttpPost]
-        public async Task<ActionResult<ResponseModel<Corretora>>> SalvarCorretoras([FromBody] Corretora cnpj){
+        public async Task<ActionResult<ResponseModel<Salvos>>> SalvarCorretoras([FromBody] Salvos cnpj){
             return await _service.SalvarCorretoras(cnpj);
         }
 
         [HttpDelete]
-        public async Task<ActionResult<ResponseModel<Corretora>>> RemoverCorretoras([FromQuery] string cnpj){
+        public async Task<ActionResult<ResponseModel<Salvos>>> RemoverCorretoras([FromQuery] string cnpj){
             return await _service.RemoverCorretoras(cnpj);
         }
     }

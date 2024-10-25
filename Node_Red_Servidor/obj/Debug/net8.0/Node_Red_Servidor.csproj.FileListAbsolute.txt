@@ -104,3 +104,4 @@ C:\Users\quare\.vscode\Projetos\Csharp\Node-Red\Node_Red_Servidor\obj\Debug\net8
 C:\Users\quare\.vscode\Projetos\Csharp\Node-Red\Node_Red_Servidor\obj\Debug\net8.0\Node_Red_Servidor.pdb
 C:\Users\quare\.vscode\Projetos\Csharp\Node-Red\Node_Red_Servidor\obj\Debug\net8.0\Node_Red_Servidor.genruntimeconfig.cache
 C:\Users\quare\.vscode\Projetos\Csharp\Node-Red\Node_Red_Servidor\obj\Debug\net8.0\ref\Node_Red_Servidor.dll
+C:\Users\quare\.vscode\Projetos\Csharp\Node-Red\Node_Red_Servidor\bin\Debug\net8.0\Newtonsoft.Json.dll
