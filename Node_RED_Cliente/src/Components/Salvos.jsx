@@ -10,7 +10,7 @@ export default function Salvos() {
   useEffect(() => {
     const fetchCnpjData = async () => {
       try {
-        const response = await fetch('https://localhost:7218/api/Corretora', {
+        const response = await fetch('https://localhost:7218/salvos', {
           method: 'GET',
         })
         const data = await response.json();

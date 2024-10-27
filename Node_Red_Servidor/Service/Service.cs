@@ -6,12 +6,12 @@ using Node_Red_Servidor.Model;
 
 namespace Node_Red_Servidor.Service
 {
-    public class CorretoraService
+    public class Service
     {
         private readonly ServerDbContext serverDbContext;
         private readonly HttpClient httpClient;
 
-        public CorretoraService(ServerDbContext serverDbContext, HttpClient httpClient)
+        public Service(ServerDbContext serverDbContext, HttpClient httpClient)
         {
             this.serverDbContext = serverDbContext;
             this.httpClient = httpClient;

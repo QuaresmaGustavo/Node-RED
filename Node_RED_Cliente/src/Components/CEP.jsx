@@ -10,11 +10,11 @@ export default function BarraDePesquisa() {
         const fetchData = async () => {
             if (cep.length === 8) {
                 try {
-                    const response = await fetch(`https://brasilapi.com.br/api/cep/v2/${cep}`, {
+                    const response = await fetch(`https://localhost:7218/cep?cep=${cep}`, {
                         method: 'GET',
                     });
                     const data = await response.json();
-                    setInformacao(data);
+                    setInformacao(data.dados);
                 } catch (error) {
                     console.error("Erro na API", error);
                 }

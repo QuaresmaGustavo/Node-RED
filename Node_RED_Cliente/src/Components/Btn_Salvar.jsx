@@ -9,7 +9,7 @@ export default function Btn_Salvar({ Cnpj }) {
     const SalvarCorretora = () => {
         const fetchData = async () => {
             try {
-                const response = await fetch('https://localhost:7218/api/Corretora', {
+                const response = await fetch('https://localhost:7218/api', {
                     method: 'POST',
                     headers: { 'content-Type': 'application/json', },
                     body: JSON.stringify({

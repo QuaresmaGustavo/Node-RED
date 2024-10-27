@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:controllers\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\model\\corretora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:model\\corretora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:service\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\model\\cep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:model\\cep.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\data\\serverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:data\\serverdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\service\\corretoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:service\\corretoraservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\controllers\\corretoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:controllers\\corretoracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\model\\salvos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|solutionrelative:model\\salvos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06885380-4063-4795-B55B-3F1FB94E5FE7}|Node_Red_Servidor.csproj|c:\\users\\quare\\.vscode\\projetos\\csharp\\node-red\\node_red_servidor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -43,7 +47,22 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T22:37:12.607Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ServerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Data\\ServerDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ServerDbContext.cs",
+              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Data\\ServerDbContext.cs",
+              "RelativeToolTip": "Data\\ServerDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-25T14:14:33.64Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -55,54 +74,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServerDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Data\\ServerDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ServerDbContext.cs",
-              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Data\\ServerDbContext.cs",
-              "RelativeToolTip": "Data\\ServerDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-25T14:14:33.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Salvos.cs",
-              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Model\\Salvos.cs",
-              "RelativeDocumentMoniker": "Model\\Salvos.cs",
-              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Model\\Salvos.cs",
-              "RelativeToolTip": "Model\\Salvos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAANAAAA",
+              "Title": "CEP.cs",
+              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Model\\CEP.cs",
+              "RelativeDocumentMoniker": "Model\\CEP.cs",
+              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Model\\CEP.cs",
+              "RelativeToolTip": "Model\\CEP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T18:31:08.447Z",
+              "WhenOpened": "2024-10-27T16:21:03.044Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CorretoraService.cs",
-              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Service\\CorretoraService.cs",
-              "RelativeDocumentMoniker": "Service\\CorretoraService.cs",
-              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Service\\CorretoraService.cs",
-              "RelativeToolTip": "Service\\CorretoraService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAABAAAAA",
+              "Title": "Corretora.cs",
+              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Model\\Corretora.cs",
+              "RelativeDocumentMoniker": "Model\\Corretora.cs",
+              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Model\\Corretora.cs",
+              "RelativeToolTip": "Model\\Corretora.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T16:21:02.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Service.cs",
+              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Service\\Service.cs",
+              "RelativeDocumentMoniker": "Service\\Service.cs",
+              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Service\\Service.cs",
+              "RelativeToolTip": "Service\\Service.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-04T23:15:23.046Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CorretoraController.cs",
-              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Controllers\\CorretoraController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CorretoraController.cs",
-              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Controllers\\CorretoraController.cs",
-              "RelativeToolTip": "Controllers\\CorretoraController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCAAAABoAAAA",
+              "DocumentIndex": 0,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Controllers\\Controller.cs",
+              "RelativeDocumentMoniker": "Controllers\\Controller.cs",
+              "ToolTip": "C:\\Users\\quare\\.vscode\\Projetos\\Csharp\\Node-Red\\Node_Red_Servidor\\Controllers\\Controller.cs",
+              "RelativeToolTip": "Controllers\\Controller.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowA8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-04T23:08:23.593Z",
+              "WhenOpened": "2024-10-27T15:31:03.948Z",
               "EditorCaption": ""
             }
           ]

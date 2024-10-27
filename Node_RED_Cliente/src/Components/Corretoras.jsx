@@ -9,11 +9,11 @@ export default function Corretoras() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('https://brasilapi.com.br/api/cvm/corretoras/v1', {
+        const response = await fetch('https://localhost:7218/corretoras', {
           method: 'GET',
         })
         const data = await response.json();
-        setCorretora(data);
+        setCorretora(data.dados);
       } catch (error) {
         console.error("Erro na API", error)
       }
@@ -34,7 +34,7 @@ export default function Corretoras() {
           <ul className='lista_de_corretoras'>
             {corretora.map((c) => (
               <li key={c.cnpj} className='info_corretora'>
-                <span className='informacao'>{c.nome_social} - {c.municipio} / {c.cnpj}</span>
+                <span className='informacao'>{c.nome_Social} - {c.municipio} / {c.cnpj}</span>
                 <div className='box_btn_salvar'>
                   <Btn_Salvar Cnpj={c.cnpj}/>
                 </div>

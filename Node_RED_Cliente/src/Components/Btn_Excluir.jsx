@@ -9,7 +9,7 @@ export default function Btn_Excluir({cnpj, remover}) {
     const RemoverCorretora = async () => {
         const fetchData = async () => {
             try {
-                const response = await fetch(`https://localhost:7218/api/Corretora?cnpj=${cnpj}`, {
+                const response = await fetch(`https://localhost:7218/api?cnpj=${cnpj}`, {
                     method: 'DELETE',
                 })
                 if (response.ok) {

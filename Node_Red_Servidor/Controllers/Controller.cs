@@ -7,11 +7,11 @@ namespace Node_Red_Servidor.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CorretoraController : ControllerBase{
+    public class Controller : ControllerBase
+    {
+        private readonly Service.Service _service;
 
-        private readonly CorretoraService _service;
-
-        public CorretoraController(CorretoraService service) { _service = service;}
+        public Controller(Service.Service service) { _service = service; }
 
         [HttpGet("/cep")]
         public async Task<ResponseModel<CEP>> BuscarPorCEP(string cep)
@@ -20,22 +20,26 @@ namespace Node_Red_Servidor.Controllers
         }
 
         [HttpGet("/corretoras")]
-        public async Task<ResponseModel<List<Corretora>>> BuscarTodasAsCorretoras(){
+        public async Task<ResponseModel<List<Corretora>>> BuscarTodasAsCorretoras()
+        {
             return await _service.BuscarTodasAsCorretoras();
         }
 
         [HttpGet("/salvos")]
-        public async Task<ActionResult<ResponseModel<List<Salvos>>>> BuscarTodasAsCorretorasSalvas(){
+        public async Task<ActionResult<ResponseModel<List<Salvos>>>> BuscarTodasAsCorretorasSalvas()
+        {
             return await _service.BuscarTodasAsCorretorasSalvas();
         }
 
         [HttpPost]
-        public async Task<ActionResult<ResponseModel<Salvos>>> SalvarCorretoras([FromBody] Salvos cnpj){
+        public async Task<ActionResult<ResponseModel<Salvos>>> SalvarCorretoras([FromBody] Salvos cnpj)
+        {
             return await _service.SalvarCorretoras(cnpj);
         }
 
         [HttpDelete]
-        public async Task<ActionResult<ResponseModel<Salvos>>> RemoverCorretoras([FromQuery] string cnpj){
+        public async Task<ActionResult<ResponseModel<Salvos>>> RemoverCorretoras([FromQuery] string cnpj)
+        {
             return await _service.RemoverCorretoras(cnpj);
         }
     }
